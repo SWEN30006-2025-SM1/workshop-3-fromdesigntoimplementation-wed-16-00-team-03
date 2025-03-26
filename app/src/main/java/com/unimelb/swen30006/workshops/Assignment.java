@@ -15,6 +15,10 @@ public class Assignment {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public static Assignment create() {
         return new Assignment(null,null, null, 0);
     }

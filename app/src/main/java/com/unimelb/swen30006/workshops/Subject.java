@@ -12,4 +12,8 @@ public class Subject {
     public void createAss() {
         Assignment a = Assignment.create();
     }
+
+    public void deleteAss(String name) {
+
+    }
 }
