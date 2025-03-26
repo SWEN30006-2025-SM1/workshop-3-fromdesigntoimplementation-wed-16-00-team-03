@@ -1,11 +1,14 @@
 package com.unimelb.swen30006.workshops;
 
-public abstract class Student {
+import java.util.Date;
+
+public class Student extends Person {
     String email;
     String studentID;
     Double score;
 
-    public Student(String email, String studentID) {
+    public Student(String email, String studentID, String address, Date dob, String name) {
+        super(address, dob, name);
         this.email = email;
         this.studentID = studentID;
     }
